@@ -1,0 +1,45 @@
+/* add your CSS here */
+body{
+ text-align: center;
+ font-family:  'Roboto','sans-serif';
+}
+h3{
+    text-align: left;
+    font-size: 1.6em;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    margin-left: 0.4em;
+}
+.card{
+    background-color: #E1F0D0;
+    height: 35%;
+    width: 25%;
+    border: solid 1px #b7bbb6;
+    border-radius: 0.3em;
+    box-shadow: 5px 5px 20px #626361;
+}
+.card-image{
+  max-width: 95%;
+  height: auto;
+}
+.card-content{
+    text-align: justify;
+    border: solid 1px #b7bbb6;
+    margin: 0.5em;
+    padding: 0.8em;
+    font-size: 0.8em;
+   
+}
+.card-title{
+    font-style: italic;
+
+}
+#itens{
+ list-style-type: none;
+ margin: 0%;
+ padding: 0%;
+}
+ul > li >span {
+    font-weight: bold;
+}
+
